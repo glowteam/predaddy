@@ -1,5 +1,5 @@
 {
-    "name": "predaddy/predaddy",
+    "name": "glow/predaddy",
     "description": "Common DDD classes and utilities",
     "license": "MIT",
     "keywords": ["ddd", "eventbus", "aggregate"],
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "precore/precore": "~1.9 || ^2.0",
+        "precore/precore": "~4.0",
         "doctrine/annotations": "~1.1",
         "doctrine/cache": "~1.0",
         "lf4php/lf4php": "~4.2",
