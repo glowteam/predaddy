@@ -23,7 +23,7 @@
 
 namespace predaddy\messagehandling;
 
-use precore\lang\Objt;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 use ReflectionMethod;
