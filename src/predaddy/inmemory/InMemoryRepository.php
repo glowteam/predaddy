@@ -23,7 +23,7 @@
 
 namespace predaddy\inmemory;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\util\Preconditions;
 use predaddy\domain\AggregateId;
 use predaddy\domain\AggregateRoot;
@@ -32,7 +32,7 @@ use predaddy\domain\Repository;
 /**
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-final class InMemoryRepository extends Object implements Repository
+final class InMemoryRepository extends Obj implements Repository
 {
     /**
      * @var array

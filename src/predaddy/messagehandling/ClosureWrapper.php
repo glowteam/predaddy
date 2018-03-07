@@ -24,11 +24,11 @@
 namespace predaddy\messagehandling;
 
 use Closure;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use ReflectionFunction;
 
-final class ClosureWrapper extends Object implements CallableWrapper
+final class ClosureWrapper extends Obj implements CallableWrapper
 {
     /**
      * @var Closure

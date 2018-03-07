@@ -24,7 +24,7 @@
 namespace predaddy\domain\eventsourcing;
 
 use InvalidArgumentException;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectClass;
 use precore\util\Preconditions;
 use predaddy\domain\AggregateId;
@@ -37,7 +37,7 @@ use predaddy\domain\Repository;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-class EventSourcingRepository extends Object implements Repository
+class EventSourcingRepository extends Obj implements Repository
 {
     /**
      * @var EventStore

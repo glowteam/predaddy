@@ -25,7 +25,7 @@ namespace predaddy\messagehandling\interceptors;
 
 use Exception;
 use lf4php\MDC;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\util\UUID;
 use predaddy\messagehandling\DispatchInterceptor;
 use predaddy\messagehandling\InterceptorChain;
@@ -41,7 +41,7 @@ use trf4php\TransactionManager;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-final class WrapInTransactionInterceptor extends Object implements DispatchInterceptor, SubscriberExceptionHandler
+final class WrapInTransactionInterceptor extends Obj implements DispatchInterceptor, SubscriberExceptionHandler
 {
     const MDC_KEY = 'TR';
 

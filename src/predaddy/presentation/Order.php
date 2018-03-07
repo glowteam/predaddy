@@ -23,7 +23,7 @@
 
 namespace predaddy\presentation;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 
@@ -32,7 +32,7 @@ use precore\util\Objects;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-class Order extends Object
+class Order extends Obj
 {
     /**
      * @var Direction

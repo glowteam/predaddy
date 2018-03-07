@@ -25,7 +25,7 @@ namespace predaddy\messagehandling\util;
 
 use Closure;
 use Exception;
-use precore\lang\Object;
+use precore\lang\Obj;
 use predaddy\messagehandling\MessageCallback;
 
 /**
@@ -42,7 +42,7 @@ use predaddy\messagehandling\MessageCallback;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-final class MessageCallbackClosures extends Object implements MessageCallback
+final class MessageCallbackClosures extends Obj implements MessageCallback
 {
     /**
      * @var Closure|null

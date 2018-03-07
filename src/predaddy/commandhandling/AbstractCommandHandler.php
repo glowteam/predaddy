@@ -23,7 +23,7 @@
 
 namespace predaddy\commandhandling;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use predaddy\domain\Repository;
 
 /**
@@ -32,7 +32,7 @@ use predaddy\domain\Repository;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-abstract class AbstractCommandHandler extends Object
+abstract class AbstractCommandHandler extends Obj
 {
     /**
      * @var Repository

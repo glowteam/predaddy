@@ -23,7 +23,7 @@
 
 namespace predaddy\domain;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use predaddy\messagehandling\MessageBus;
 use predaddy\messagehandling\util\NullMessageBus;
 
@@ -35,7 +35,7 @@ use predaddy\messagehandling\util\NullMessageBus;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-final class EventPublisher extends Object
+final class EventPublisher extends Obj
 {
     /**
      * @var EventPublisher

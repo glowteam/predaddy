@@ -24,7 +24,7 @@
 namespace predaddy\messagehandling\util;
 
 use Closure;
-use precore\lang\Object;
+use precore\lang\Obj;
 use predaddy\messagehandling\MessageBus;
 use predaddy\messagehandling\MessageCallback;
 
@@ -32,7 +32,7 @@ use predaddy\messagehandling\MessageCallback;
  * @author Janos Szurovecz <szjani@szjani.hu>
  * @codeCoverageIgnore
  */
-final class NullMessageBus extends Object implements MessageBus
+final class NullMessageBus extends Obj implements MessageBus
 {
     /**
      * Post a message on this bus. It is dispatched to all subscribed handlers.

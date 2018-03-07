@@ -23,7 +23,7 @@
 
 namespace predaddy\domain;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 
@@ -32,7 +32,7 @@ use precore\util\Objects;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-final class GenericAggregateId extends Object implements AggregateId
+final class GenericAggregateId extends Obj implements AggregateId
 {
     /**
      * @var string

@@ -24,7 +24,7 @@
 namespace predaddy\presentation;
 
 use InvalidArgumentException;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 use precore\util\Preconditions;
@@ -35,7 +35,7 @@ use precore\util\Preconditions;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-class PageRequest extends Object implements Pageable
+class PageRequest extends Obj implements Pageable
 {
     private $page;
     private $size;

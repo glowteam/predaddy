@@ -26,7 +26,7 @@ namespace predaddy\messagehandling;
 use ArrayIterator;
 use Closure;
 use InvalidArgumentException;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\util\Preconditions;
 use predaddy\messagehandling\util\MessageCallbackClosures;
 use RuntimeException;
@@ -34,7 +34,7 @@ use RuntimeException;
 /**
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-abstract class InterceptableMessageBus extends Object implements MessageBus
+abstract class InterceptableMessageBus extends Obj implements MessageBus
 {
     /**
      * @var MessageCallback

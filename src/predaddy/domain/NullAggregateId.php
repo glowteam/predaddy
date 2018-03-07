@@ -23,7 +23,7 @@
 
 namespace predaddy\domain;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\util\Objects;
 
 /**
@@ -32,7 +32,7 @@ use precore\util\Objects;
  * @see predaddy\domain\AbstractDomainEvent
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-final class NullAggregateId extends Object implements AggregateId
+final class NullAggregateId extends Obj implements AggregateId
 {
     private static $instance;
 

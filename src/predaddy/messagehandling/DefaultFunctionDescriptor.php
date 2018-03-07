@@ -25,7 +25,7 @@ namespace predaddy\messagehandling;
 
 use precore\lang\ClassCastException;
 use precore\lang\NullPointerException;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectClass;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
@@ -40,7 +40,7 @@ use ReflectionClass;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-class DefaultFunctionDescriptor extends Object implements FunctionDescriptor
+class DefaultFunctionDescriptor extends Obj implements FunctionDescriptor
 {
     /**
      * @var string

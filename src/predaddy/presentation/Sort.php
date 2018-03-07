@@ -26,7 +26,7 @@ namespace predaddy\presentation;
 use ArrayIterator;
 use Countable;
 use IteratorAggregate;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 
@@ -36,7 +36,7 @@ use precore\util\Objects;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-class Sort extends Object implements IteratorAggregate, Countable
+class Sort extends Obj implements IteratorAggregate, Countable
 {
     private $orders = [];
 

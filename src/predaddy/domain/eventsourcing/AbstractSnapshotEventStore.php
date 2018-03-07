@@ -23,7 +23,7 @@
 
 namespace predaddy\domain\eventsourcing;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectClass;
 use predaddy\domain\AggregateId;
 use predaddy\domain\DomainEvent;
@@ -31,7 +31,7 @@ use predaddy\domain\DomainEvent;
 /**
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-abstract class AbstractSnapshotEventStore extends Object implements SnapshotEventStore
+abstract class AbstractSnapshotEventStore extends Obj implements SnapshotEventStore
 {
     /**
      * @var SnapshotStrategy

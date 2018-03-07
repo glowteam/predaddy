@@ -23,12 +23,12 @@
 
 namespace predaddy\messagehandling;
 
-use precore\lang\Object;
+use precore\lang\Objt;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 use ReflectionMethod;
 
-final class MethodWrapper extends Object implements CallableWrapper
+final class MethodWrapper extends Obj implements CallableWrapper
 {
     /**
      * @var object

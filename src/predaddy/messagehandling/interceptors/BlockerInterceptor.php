@@ -23,7 +23,7 @@
 
 namespace predaddy\messagehandling\interceptors;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use predaddy\messagehandling\DispatchInterceptor;
 use predaddy\messagehandling\InterceptorChain;
 use predaddy\messagehandling\NonBlockable;
@@ -40,7 +40,7 @@ use predaddy\messagehandling\NonBlockable;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-final class BlockerInterceptor extends Object implements DispatchInterceptor
+final class BlockerInterceptor extends Obj implements DispatchInterceptor
 {
     private $blocking = false;
 

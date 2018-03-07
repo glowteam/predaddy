@@ -2,7 +2,7 @@
 
 namespace predaddy\domain;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 
@@ -12,7 +12,7 @@ use precore\util\Objects;
  * @package predaddy\domain
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-abstract class AbstractAggregateId extends Object implements AggregateId
+abstract class AbstractAggregateId extends Obj implements AggregateId
 {
     final public function equals(ObjectInterface $object = null)
     {

@@ -25,7 +25,7 @@ namespace predaddy\messagehandling;
 
 use DateTime;
 use precore\lang\NullPointerException;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 use precore\util\Preconditions;
@@ -36,7 +36,7 @@ use precore\util\UUID;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-abstract class AbstractMessage extends Object implements Message
+abstract class AbstractMessage extends Obj implements Message
 {
     protected $id;
     protected $created;

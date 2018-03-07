@@ -24,7 +24,7 @@
 namespace predaddy\domain;
 
 use precore\lang\IllegalStateException;
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\lang\ObjectInterface;
 use precore\util\Objects;
 use precore\util\Preconditions;
@@ -45,7 +45,7 @@ use precore\util\Preconditions;
  *
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-abstract class AbstractAggregateRoot extends Object implements AggregateRoot
+abstract class AbstractAggregateRoot extends Obj implements AggregateRoot
 {
     /**
      * @var string

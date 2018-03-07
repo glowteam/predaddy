@@ -23,13 +23,13 @@
 
 namespace predaddy\messagehandling;
 
-use precore\lang\Object;
+use precore\lang\Obj;
 use precore\util\Objects;
 
 /**
  * @author Janos Szurovecz <szjani@szjani.hu>
  */
-final class SubscriberExceptionContext extends Object
+final class SubscriberExceptionContext extends Obj
 {
     private $messageBus;
     private $message;
